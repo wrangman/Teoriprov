@@ -1,0 +1,14 @@
+DESIGN
+
+#TODO: what about setting the title and the quetions next to eacho ther... see figma 
+
+#TODO: i need this to be stacked better. answers above and buttons bottom to the right - typ fixat
+
+# Create a frame to hold the radio buttons answer choices
+frame_radiobuttons = tk.Frame(frame_testpage)
+frame_radiobuttons.pack(side="left", padx=self.padding, pady=self.padding/2)
+
+#TODO: save_selection finish it
+
+
+

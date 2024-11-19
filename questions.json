@@ -1,0 +1,38 @@
+[
+   {
+      "question": "När får du köra om på höger sida?",
+      "image_url": "q1.png",
+      "A": "När du kör över 50 km",
+      "B": "När du kör över 40 km",
+      "C": "När du kör över 30 km",
+      "D": "Du får aldrig köra om till höger",
+      "key": 1
+   },
+   {
+      "question": "Vad betyder denna skylt?",
+      "image_url": "q2.png",
+      "A": "Man får köra om till vänster",
+      "B": "Man får köra om till höger",
+      "C": "Man får köra om på vilken sida som helst",
+      "D": "Man får inte köra om",
+      "key": 4
+   },
+   {
+      "question": "Vad betyder denna skylt?",
+      "image_url": "q3.png",
+      "A": "Man får köra in med bil",
+      "B": "Man får inte köra in med bil eller motorcykel",
+      "C": "Man ska visa företräde",
+      "D": "Allmän varning",
+      "key": 2
+   },
+   {
+      "question": "Vad passar in i detta sammanhang?",
+      "image_url": "q4.png",
+      "A": "Lastbilen som kör om gör fel",
+      "B": "Lastbilar kan ha olika hastighetsbegränsningar",
+      "C": "Lastbilar får aldrig köra i vänsterfil",
+      "D": "Lastbilar bör aldrig köra om varandra",
+      "key": 2
+   }
+]

@@ -16,7 +16,7 @@ class Window(tk.Frame):
       self.place_window()
       
       #Set the window icon & title
-      icon = tk.PhotoImage(file = "Teoriprov/img/k_logo16.png")
+      icon = tk.PhotoImage(file = "img/k_logo16.png")
       self.master.iconphoto(False, icon)
       self.master.title("Teoriprov")
       
@@ -49,7 +49,7 @@ class Window(tk.Frame):
       lbl_currentquestion.pack(side="top", fill="x", padx=self.padding, pady=self.padding)
       
       # image
-      image = open_image("Teoriprov/img/q1.png")
+      image = open_image("img/q1.png")
       
       #TODO: error handling doesnt' work here      
       if image:
@@ -133,7 +133,7 @@ class Window(tk.Frame):
       lbl_bulletlist.pack(side="left", fill="both", expand=False, padx=self.padding, pady=self.padding)
 
       # Add an image (replace with your image file path)
-      image = tk.PhotoImage(file="Teoriprov/img/start.png")
+      image = tk.PhotoImage(file="img/start.png")
       lbl_image = tk.Label(frame_content, image=image)
       lbl_image.image = image
       lbl_image.grid(row=0, column=1, padx=self.padding*2, pady=self.padding, sticky="nsew")

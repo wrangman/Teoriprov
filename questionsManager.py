@@ -14,7 +14,7 @@ class QuestionsManager():
         self.current_question_index = 0  
         self.questions = []
         
-        self.load_from_json("teoriprov/questions.json")
+        self.load_from_json("questions.json")
  
  
     def load_from_json(self, file_path):

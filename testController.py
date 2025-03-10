@@ -57,7 +57,7 @@ class TestController:
 
         # image
         lbl_image = self.test_page.winfo_children()[1]  # image
-        image = open_image(f"Teoriprov/img/{image_url}")
+        image = open_image(f"img/{image_url}")
         
         if image:
             self.image = image
@@ -126,7 +126,7 @@ class TestController:
             self.view.master.destroy()
             
     def exit_message(self):
-        messages = ["Vill du avsluta?\nKlicka JA för att avsluta.",
+        messages = ("Vill du avsluta?\nKlicka JA för att avsluta.",
                     "Säker på att du vill sluta?\nKlicka JA för att avsluta.",
                     "Vill du sluta öva inför provet nu?\nKlicka JA för att avsluta.",
                     "Kan du alla trafikregler nu?\nKlicka JA för att avsluta.",
@@ -135,7 +135,7 @@ class TestController:
                     "Avsluta - är du helt säker?\nKlicka JA för att avsluta.",
                     "Kan du alla trafikskyltar?\nKlicka JA för att avsluta.",
                     "Ska du övningsköra nu?\nKlicka JA för att avsluta.",
-                    "Avsluta redan?\nKlicka JA för att avsluta."]
+                    "Avsluta redan?\nKlicka JA för att avsluta.")
 
         random_message = randint(0, len(messages) - 1)
         return messages[random_message]
